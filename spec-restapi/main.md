@@ -7,6 +7,17 @@
 
 認証なしで使えるエンドポイント
 
+* [画像送信(麻雀牌14のオブジェクト取得)](image.md) : `POST /(db)/(container)/:room/@image`
+* [点数計算](calc.md) : `GET /(db)/(container)/:room/:item/@calc`
+
+
+
+# 機能一覧 (β1レベル)
+
+## 公開エンドポイント
+
+認証なしで使えるエンドポイント
+
 * [Login](login.md) : `POST /db/container/@login`
 
 ## 認証が必要なエンドポイント
@@ -40,7 +51,7 @@ JWTの有効なTokenがHEADERに必要なエンドポイント
 * [投稿プッシュ]() : `GET /(db)/(container)/(content)/@message`
 
 
-## 機能一覧 (βレベル)
+## 機能一覧 (β2レベル)
 
 ## 公開エンドポイント
 
